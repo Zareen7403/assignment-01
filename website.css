@@ -221,3 +221,44 @@ main{
     color:#1E1E1E
 
 }
+
+/*poster part*/
+.poster{
+   padding :71px 150px;
+   background-color: #FFFFFF;
+   border-radius: 14px  ;
+   justify-content: center;
+   align-items: center;
+}
+.poster-header.raleway-font{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000;
+}
+
+.poster-text.ag-font{
+
+    font-weight:16px;
+    color:rgba(0, 0, 0,0.5);
+    text-align: center;
+
+}
+.poster-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster-img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+.poster-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 48px;
+}
