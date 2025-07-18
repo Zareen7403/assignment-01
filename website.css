@@ -80,10 +80,12 @@ nav{
 .banner-part .raleway-font{
     font-size:65px;
     font-weight: bold;
+    color:#252432
 }
 /*main part*/
 main{
-    margin: 116px 159px 0px 141px;
+    padding: 116px 159px 0px 141px;
+    background-color:rgba(243, 235, 237, 0.5)  ;
 }
 
 /*action part*/
@@ -93,4 +95,31 @@ main{
     align-items: center;
     
     margin-bottom: 116px;
+}
+/*action text container*/
+.action-head.raleway-font{
+    font-size: 40px;
+    font-weight: bold;
+    color:#252432;
+    margin-bottom: 23px;
+
+}
+/*action text*/
+ .action-text.raleway-font{
+    font-size:24px;
+    font-weight: normal;
+    color: rgba(37, 36, 50, 0.5); 
+    margin-bottom: 23px;
+    max-width:517px ; /* Optional: limit width for better readability */
+
+    
+
+ }
+
+/*action image*/
+ .action-img{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+    border:none
 }
