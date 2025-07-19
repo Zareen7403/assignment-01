@@ -20,12 +20,19 @@
     color: #252432;  /* or your preferred color */
 }
 /*head part*/
+.head{
+    background-image: url(Assets/Hero-bg.png);
+     height:698px;
+     width: 100%;
+     height: 100vh;
+ }
 /*nav part*/
 nav{
     display :flex;
     justify-content: space-between;
     align-items: center;
-    padding : 50px 150px
+    padding : 50px 150px;
+    margin-bottom: 50px;
 }
 
 .head nav .inter-font{
@@ -64,6 +71,10 @@ button:hover {
 }
 
 /*banner part*/
+.banner-part{
+    margin-top: 158px;
+    
+}
 .banner-head{
     margin-top: 120;
     
@@ -84,11 +95,7 @@ button:hover {
     
  }
 
- .head{
-    background-image: url(Assets/Hero-bg.png);
-     height:698px;
-     width: 100%;
- }
+ 
 .banner-part .raleway-font{
     font-size:65px;
     font-weight: bold;
