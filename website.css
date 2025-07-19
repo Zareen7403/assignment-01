@@ -38,10 +38,14 @@ nav{
 
 .text-center{
     text-align: center;
-
-
-
 }
+button:hover {
+  background-color:plum;
+  cursor: pointer;
+}
+
+
+
 .primary-btn{
     background-color: #4E47FF;
     color:#FFFFFF;
@@ -92,7 +96,7 @@ nav{
 /*main part*/
 main{
     padding: 116px 159px 0px 141px;
-    background-color:rgba(243, 235, 237, 0.5)  ;
+    background-color:rgba(240, 230, 235, 0.58)  ;
 }
 
 /*action part*/
@@ -183,8 +187,9 @@ main{
 
 .reviewer-information{
     display: flex;
-    align-items: center;
-    align-items:baseline ;
+    align-items:center;
+
+    
     
     
 }
@@ -206,7 +211,8 @@ main{
     border-radius: 14px;
     padding: 24px;
     max-width: 366px;
-    max-height: 236px;
+    max-height: 260px;
+    height: 100%;
     
 }
 
@@ -221,6 +227,27 @@ main{
     color:#1E1E1E
 
 }
+.reviewer-name.ag-font{
+    font-weight: 500;
+    font-size: 16px;
+    color: #757575;
+
+    margin:0;
+}
+.reviewer-date.ag-font{
+    font-weight: normal;
+    font-size: 16px;
+    color: #B3B3B3;
+    margin:0;
+}
+
+.img-reviewer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
 
 /*poster part*/
 .poster{
@@ -261,4 +288,87 @@ main{
     height: auto;
     max-width: 100%;
     border-radius: 48px;
+}
+
+
+/*form part*/
+.form-part{
+    
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    padding: 71px 0px;
+    gap: 20px;;
+    
+}
+
+
+
+
+
+.form-header{
+    width: 100%;}
+
+.form-header-text.raleway-font{
+    font-weight: bold;
+    font-size: 97px;
+    color:#000000;
+    line-height:1.2;
+    margin:0;
+    width:100%;
+   
+
+}
+
+.form{
+    
+    padding: 71px 0px;
+    margin-top: 92.23px;
+    margin-bottom: 14px;
+
+    
+}
+    
+.form input[type='text'],.form input[type='email']{
+    width: 497px;
+    height: 70px;
+    
+    background-color: white;
+    display:block;
+    padding:20px 32px;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    border:0px;
+}
+.form textarea{
+    height: 167px;
+    width: 497px;
+    
+    border-radius: 10px;
+    background-color: white;
+    display:block;
+    padding : 20px 32px;
+    margin-bottom: 19px;
+    border:0px;
+}
+
+ .form .primary-btn.raleway-font{
+    width: 497px;
+    height: 70px;
+    width:100% ;
+    padding: 19px 101px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.form-heading.inter-font{
+    font-weight: 500px;
+    font-size: 18px;
+    color: rgba(0, 0, 0);
+}
+
+.form-input.inter-font , .form-textarea.inter-font{
+    font-weight: normal;
+    font-size: 20x;
+    color: rgba(0, 0, 0, 0.5);
 }
