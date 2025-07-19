@@ -373,7 +373,15 @@ main{
     font-weight: 500px;
     font-size: 18px;
     color: rgba(0, 0, 0);
+    
 }
+
+label{
+    display: block;
+    margin-bottom: 8px;}
+
+
+    
 
 .form-input.inter-font , .form-textarea.inter-font{
     font-weight: normal;
